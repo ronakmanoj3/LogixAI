@@ -1,0 +1,243 @@
+{
+  "status": "REFERENCE CALCULATION ONLY; human review required",
+  "dataset_label": "SYNTHETIC teaching case; not business evidence",
+  "sku": "DEMO-001",
+  "currency": "INR",
+  "baseline_lost_units": 80,
+  "baseline_daily_trace": [
+    {
+      "day": 1,
+      "receipts": 0,
+      "fulfilled": 40,
+      "lost_units": 0,
+      "closing_stock": 80
+    },
+    {
+      "day": 2,
+      "receipts": 0,
+      "fulfilled": 40,
+      "lost_units": 0,
+      "closing_stock": 40
+    },
+    {
+      "day": 3,
+      "receipts": 0,
+      "fulfilled": 40,
+      "lost_units": 0,
+      "closing_stock": 0
+    },
+    {
+      "day": 4,
+      "receipts": 0,
+      "fulfilled": 0,
+      "lost_units": 40,
+      "closing_stock": 0
+    },
+    {
+      "day": 5,
+      "receipts": 0,
+      "fulfilled": 0,
+      "lost_units": 40,
+      "closing_stock": 0
+    },
+    {
+      "day": 6,
+      "receipts": 200,
+      "fulfilled": 40,
+      "lost_units": 0,
+      "closing_stock": 160
+    },
+    {
+      "day": 7,
+      "receipts": 0,
+      "fulfilled": 40,
+      "lost_units": 0,
+      "closing_stock": 120
+    }
+  ],
+  "recommended_action": "Expedited purchase",
+  "options": [
+    {
+      "action": "No action",
+      "feasible": true,
+      "rejection_reasons": [],
+      "lost_units": 80,
+      "incremental_response_cost": 0,
+      "cash_required": 0,
+      "net_contribution_gain_vs_no_action": 0,
+      "daily_trace": [
+        {
+          "day": 1,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 80
+        },
+        {
+          "day": 2,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 40
+        },
+        {
+          "day": 3,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 0
+        },
+        {
+          "day": 4,
+          "receipts": 0,
+          "fulfilled": 0,
+          "lost_units": 40,
+          "closing_stock": 0
+        },
+        {
+          "day": 5,
+          "receipts": 0,
+          "fulfilled": 0,
+          "lost_units": 40,
+          "closing_stock": 0
+        },
+        {
+          "day": 6,
+          "receipts": 200,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 160
+        },
+        {
+          "day": 7,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 120
+        }
+      ]
+    },
+    {
+      "action": "Warehouse transfer",
+      "feasible": false,
+      "rejection_reasons": [
+        "Insufficient transferable donor stock"
+      ],
+      "lost_units": 0,
+      "incremental_response_cost": 400,
+      "cash_required": 400,
+      "net_contribution_gain_vs_no_action": 1600,
+      "daily_trace": [
+        {
+          "day": 1,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 80
+        },
+        {
+          "day": 2,
+          "receipts": 80,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 120
+        },
+        {
+          "day": 3,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 80
+        },
+        {
+          "day": 4,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 40
+        },
+        {
+          "day": 5,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 0
+        },
+        {
+          "day": 6,
+          "receipts": 200,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 160
+        },
+        {
+          "day": 7,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 120
+        }
+      ]
+    },
+    {
+      "action": "Expedited purchase",
+      "feasible": true,
+      "rejection_reasons": [],
+      "lost_units": 0,
+      "incremental_response_cost": 1160,
+      "cash_required": 9160,
+      "net_contribution_gain_vs_no_action": 840,
+      "daily_trace": [
+        {
+          "day": 1,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 80
+        },
+        {
+          "day": 2,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 40
+        },
+        {
+          "day": 3,
+          "receipts": 80,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 80
+        },
+        {
+          "day": 4,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 40
+        },
+        {
+          "day": 5,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 0
+        },
+        {
+          "day": 6,
+          "receipts": 200,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 160
+        },
+        {
+          "day": 7,
+          "receipts": 0,
+          "fulfilled": 40,
+          "lost_units": 0,
+          "closing_stock": 120
+        }
+      ]
+    }
+  ]
+}

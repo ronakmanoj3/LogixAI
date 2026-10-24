@@ -1,0 +1,2 @@
+# Required only for the connected AI chatbot
+openai>=1.68.0

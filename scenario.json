@@ -1,0 +1,19 @@
+{
+  "dataset_label": "SYNTHETIC teaching case; not business evidence",
+  "sku": "DEMO-001",
+  "unit": "units",
+  "currency": "INR",
+  "horizon_days": 7,
+  "on_hand": 120,
+  "daily_demand": 40,
+  "regular_receipts": [{"day": 6, "quantity": 200}],
+  "contribution_per_unit": 25,
+  "standard_unit_cost": 100,
+  "response_budget": 10000,
+  "transfer_available": 80,
+  "actions": [
+    {"name": "No action", "kind": "none", "day": 1, "quantity": 0, "unit_premium": 0, "fixed_fee": 0},
+    {"name": "Warehouse transfer", "kind": "transfer", "day": 2, "quantity": 80, "unit_premium": 0, "fixed_fee": 400},
+    {"name": "Expedited purchase", "kind": "purchase", "day": 3, "quantity": 80, "unit_premium": 12, "fixed_fee": 200}
+  ]
+}
